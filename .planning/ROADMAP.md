@@ -10,7 +10,7 @@ A tiny, dependency-free Node.js CLI built as three vertical slices. Phase 1 deli
 - Integer phases (1, 2, 3): Planned milestone work
 - Decimal phases (2.1, 2.2): Urgent insertions (marked with INSERTED)
 
-- [ ] **Phase 1: Add & List with Persistence** - `todo add` and `todo list` work end-to-end and items survive between runs
+- [x] **Phase 1: Add & List with Persistence** - `todo add` and `todo list` work end-to-end and items survive between runs (completed 2026-10-18)
 - [ ] **Phase 2: Mark Done & Safe Failures** - `todo done N` works and every bad input or corrupt file fails clearly without losing data
 - [ ] **Phase 3: Global Install & Full Test Suite** - `todo` runs from any directory after `npm link` and `npm test` proves every behavior
 
@@ -29,7 +29,7 @@ A tiny, dependency-free Node.js CLI built as three vertical slices. Phase 1 deli
 **Plans**: 1 plan
 
 Plans:
-- [ ] 01-01-PLAN.md — Walking Skeleton: package.json + e2e tests, lib/store.js atomic todos.json storage, todo.js add/list (see 01-SKELETON.md)
+- [x] 01-01-PLAN.md — Walking Skeleton: package.json + e2e tests, lib/store.js atomic todos.json storage, todo.js add/list (see 01-SKELETON.md)
 
 ### Phase 2: Mark Done & Safe Failures
 **Goal**: User can complete items with `todo done N`, and any invalid input or corrupt storage produces a clear error and non-zero exit without damaging data
@@ -61,6 +61,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Add & List with Persistence | 0/1 | Not started | - |
+| 1. Add & List with Persistence | 1/1 | Complete   | 2026-10-18 |
 | 2. Mark Done & Safe Failures | 0/TBD | Not started | - |
 | 3. Global Install & Full Test Suite | 0/TBD | Not started | - |
