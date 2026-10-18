@@ -9,15 +9,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Commands
 
-- [ ] **CMD-01**: User can add an item with `todo add "<text>"`; it is saved as not done
-- [ ] **CMD-02**: User can see all items with `todo list`, numbered by position (1, 2, 3…), done items marked `[x]`, pending `[ ]`
+- [x] **CMD-01**: User can add an item with `todo add "<text>"`; it is saved as not done
+- [x] **CMD-02**: User can see all items with `todo list`, numbered by position (1, 2, 3…), done items marked `[x]`, pending `[ ]`
 - [ ] **CMD-03**: User can mark an item done with `todo done N`, where N is the position shown in the current `todo list` output
-- [ ] **CMD-04**: User sees a friendly message when `todo list` has no items
+- [x] **CMD-04**: User sees a friendly message when `todo list` has no items
 
 ### Storage
 
-- [ ] **STOR-01**: Items persist in `todos.json` in the current working directory across separate invocations
-- [ ] **STOR-02**: First run works when `todos.json` does not exist (treated as empty list)
+- [x] **STOR-01**: Items persist in `todos.json` in the current working directory across separate invocations
+- [x] **STOR-02**: First run works when `todos.json` does not exist (treated as empty list)
 - [ ] **STOR-03**: A corrupt `todos.json` produces a clear error and is not overwritten
 
 ### Errors
@@ -29,7 +29,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Packaging
 
 - [ ] **PKG-01**: User can run `todo` from any directory after `npm link` (package.json `bin` field)
-- [ ] **PKG-02**: Project has zero npm dependencies and declares Node >=22 in `engines`
+- [x] **PKG-02**: Project has zero npm dependencies and declares Node >=22 in `engines`
 
 ### Quality
 
@@ -64,18 +64,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CMD-01 | Phase 1 | Pending |
-| CMD-02 | Phase 1 | Pending |
+| CMD-01 | Phase 1 | Complete |
+| CMD-02 | Phase 1 | Complete |
 | CMD-03 | Phase 2 | Pending |
-| CMD-04 | Phase 1 | Pending |
-| STOR-01 | Phase 1 | Pending |
-| STOR-02 | Phase 1 | Pending |
+| CMD-04 | Phase 1 | Complete |
+| STOR-01 | Phase 1 | Complete |
+| STOR-02 | Phase 1 | Complete |
 | STOR-03 | Phase 2 | Pending |
 | ERR-01 | Phase 2 | Pending |
 | ERR-02 | Phase 2 | Pending |
 | ERR-03 | Phase 2 | Pending |
 | PKG-01 | Phase 3 | Pending |
-| PKG-02 | Phase 1 | Pending |
+| PKG-02 | Phase 1 | Complete |
 | TEST-01 | Phase 3 | Pending |
 
 **Coverage:**
