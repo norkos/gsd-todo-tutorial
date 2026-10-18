@@ -1,0 +1,14 @@
+{
+  "name": "todo-cli",
+  "version": "0.1.0",
+  "description": "A tiny zero-dependency command-line to-do list that stores items in ./todos.json",
+  "private": true,
+  "main": "todo.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
