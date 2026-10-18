@@ -28,7 +28,7 @@ See: .planning/PROJECT.md (updated 2026-10-18)
 Phase: 2
 Plan: Not started
 Status: Phase 01 shipped — PR #1
-Last activity: 2026-10-18
+Last activity: 2026-10-18 - Completed quick task 261018-tg0: Add README.md describing project goals
 
 Progress: [██████████] 100%
 
@@ -74,6 +74,12 @@ None yet.
 ### Blockers/Concerns
 
 None yet.
+
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 261018-tg0 | Add README.md describing project goals | 2026-10-18 | 6c8ecb3 | [261018-tg0-add-readme-md-describing-project-goals](./quick/261018-tg0-add-readme-md-describing-project-goals/) |
 
 ## Deferred Items
 
